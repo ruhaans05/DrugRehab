@@ -1,2 +1,2 @@
 # DrugRehab
-ML model that classifies a user's drug usage and offers help based on a questionnaire and real-time training data using scikit-learn.
+This is a Python model that classifies a user's drug usage and offers help based on a questionnaire and real-time training data using scikit-learn. The questionnaire will be manually updated from time to time. The training data is updated through each input, where the numerical thresholds deciding classification (by KMeans and mini batch gradient descent) are everchanging based on the movement of its centroid (which groups data points to classify them).
